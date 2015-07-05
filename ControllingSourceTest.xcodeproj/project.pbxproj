@@ -88,14 +88,8 @@
 			children = (
 				DA351C9B1B49673200F8A2E0 /* AppDelegate.h */,
 				DA351C9C1B49673200F8A2E0 /* AppDelegate.m */,
-				DA351CA11B49673200F8A2E0 /* MasterViewController.h */,
-				DA351CA21B49673200F8A2E0 /* MasterViewController.m */,
-				DA351CA41B49673200F8A2E0 /* DetailViewController.h */,
-				DA351CA51B49673200F8A2E0 /* DetailViewController.m */,
-				DA351CA71B49673200F8A2E0 /* Main.storyboard */,
-				DA351CAA1B49673200F8A2E0 /* Images.xcassets */,
-				DA351CAC1B49673200F8A2E0 /* LaunchScreen.xib */,
-				DA351C9E1B49673200F8A2E0 /* ControllingSourceTest.xcdatamodeld */,
+				DAE5176B1B496F2800C3A2E1 /* View Controllers */,
+				DAE5176C1B496F6800C3A2E1 /* Resources */,
 				DA351C971B49673200F8A2E0 /* Supporting Files */,
 			);
 			path = ControllingSourceTest;
@@ -125,6 +119,28 @@
 				DA351CB81B49673200F8A2E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE5176B1B496F2800C3A2E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA351CA11B49673200F8A2E0 /* MasterViewController.h */,
+				DA351CA21B49673200F8A2E0 /* MasterViewController.m */,
+				DA351CA41B49673200F8A2E0 /* DetailViewController.h */,
+				DA351CA51B49673200F8A2E0 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DAE5176C1B496F6800C3A2E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA351CA71B49673200F8A2E0 /* Main.storyboard */,
+				DA351CAA1B49673200F8A2E0 /* Images.xcassets */,
+				DA351CAC1B49673200F8A2E0 /* LaunchScreen.xib */,
+				DA351C9E1B49673200F8A2E0 /* ControllingSourceTest.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +438,7 @@
 				DA351CBF1B49673200F8A2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA351CC01B49673200F8A2E0 /* Build configuration list for PBXNativeTarget "ControllingSourceTestTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +447,7 @@
 				DA351CC21B49673200F8A2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
